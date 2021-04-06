@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.content {
+  color: white;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: slategray;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+input {
+  padding:5px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);: 2px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.button_submit {
+  padding: 3px;
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.Todos{
+  width: 100%;
+}
+
+.true {
+  text-decoration:line-through;
+}
+
+.Todo {
+  background-color: #282c34;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+ul {
+  padding-inline-start: 0px ;
+}
+
+.Check {
+  margin-right: 5px;
+}
+
+.changeDone{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.Footer{
+  color: red;
+}
+
+button{
+  padding: 3px;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
